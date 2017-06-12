@@ -1,0 +1,5 @@
+This project was created for the ECS 170 (Artificial Intelligence) class in Winter of 2017. This is one of the major projects for the class.
+The assignment was to create an AI module that plays connect four. The AI most choose a move within a strict time limit (less than half a second for the tournament). The AI module must operate by using a game tree to perform a Minimax <https://en.wikipedia.org/wiki/Minimax> operation to determine the "best" move at a given time. After a Minimax AI is developed, alpha-beta pruning <https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning> is implemented to optimize the game tree search operation.
+After each individual or group created their AI, all modules were played against each other in a tournament to determine a class ranking; grades were assigned accordingly.
+
+Each student group wrote a Minimax and AlphaBeta version for submission, which was controlled by a java program written by the professor. The full code base is included here - the AI modules will not operate without a framework. Only the *_MatthewMartin.java files (and Project2.pdf writeup) were written by me.
